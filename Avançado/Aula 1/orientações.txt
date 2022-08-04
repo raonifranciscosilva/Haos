@@ -1,0 +1,23 @@
+from smtplib import SMTP_SSL
+
+
+POO - Programação orientada a objetos
+
+POO = Paradigma, baseada no conceito de objetos
+
+
+Atributos: dados/variáveis
+
+Procedimentos: Funções/métodos
+
+-----------------------------------
+Procedimentos alteram Atributos
+----------------------------------
+
+CLASSE: Classe é a forma do bolo
+OBJETO: Objeto é o bolo (instância da classe)
+HERANÇA: Classes herdam de classes
+POLIMORFISMO: Poli = muitos /  Morfismo = formas
+
+
+

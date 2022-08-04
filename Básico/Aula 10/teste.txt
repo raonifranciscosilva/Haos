@@ -1,0 +1,21 @@
+1-Crie um programa que mostre o seu nome
+
+2-Crie um programa que mostre o seu nome e sobrenome
+
+3-Crie um programa que peça a digitação do nome e mostre
+    num print o resultado
+
+4-•	Fazer um programa que peça dois números, verifique
+    qual dos dois é maior e mostre
+
+5-Fazer um programa que conta de 1 a 10 utilizando FOR
+
+6-Fazer um programa que conta de 1 a 10 utilizando WHILE
+
+7-Fazer um programa que peça 5 números, verifique qual 
+    dos cinco é maior e mostre
+
+8-Fazer um programa com uma FUNÇÃO que receba um NOME e 
+    um SOBRENOME, a função deve retornar uma frase com os dois
+
+
