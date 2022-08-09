@@ -27,16 +27,16 @@ class Conta:
         print(f'O numero da conta é {self.numero}, e o saldo é {self.saldo}')
 
                                 #conta
-    def transferir(self, valor, destinatario):
-        retirou = self.sacar(valor)
-        if retirou == False:
-            return False
-        else:
-            #altera o saldo
-            self.saldo -= valor
-            #envia para o destino
-            destinatario.depositar(valor)
-            return True
+    def transferir(self, destino, valor):
+        self.saldo -= valor
+        destino.saldo += valor
+        # retirou	= self.sacar(valor)
+        # if	(retirou	==	False):
+        #     return False
+        # else:
+        #     destino.depositar(valor)
+        #     return True
+
 
 
 class Cliente:
@@ -53,7 +53,7 @@ dani = Cliente('Dani', 'Amorim', 12345678201)
 conta1 = Conta(111, raoni, 1000, 1000)
 conta2 = Conta(222, dani, 1000, 1000)
 
-conta1.transferir(1, conta2)
+conta1.transferir(conta2, 1)
 
 print(conta2.saldo)
 
