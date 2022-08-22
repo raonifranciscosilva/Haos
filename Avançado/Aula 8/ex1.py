@@ -23,18 +23,13 @@ for i in range(5):
 arquivo.close()
 
 
-#                          Exercício 2
-#Criar um Código que escreve num arquivo, porém com as tratativas de exceção criadas para a abertura 
-# do arquivo e a tratativa para escrita no arquivo
-# •	Uma tratativa para abrir o arquivo
-# •	Uma tratativa para escrever no arquivo
-# •	Não esquecer de fechar o arquivo
 
 
 
-#                           Exercício 3
-# Programa que coleta os nomes de pessoas de um arquivo, altera todos para maiúscula e
-# escreve novamente no arquivo os nomes modificados.
+
+
+
+
 
 
 
